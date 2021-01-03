@@ -3,9 +3,13 @@
 
 This is a very basic example of Ecommerce CRUD in Node.js and express framework .
 I have applied REST based API recommendations and custom MVC architecture .
+
 I have applied Passport login  local strategy  http://www.passportjs.org/ 
+
 I have used mySql and Sequelize ORM (associations are done using ORM ) https://sequelize.org/master/. 
+
 I have written some basic test cases ( unit and integeration testing ) using Js testing framework Jest  https://jestjs.io/ .
+
 I have also used eslint module for finding and fixing problems in my code .
 UI is not done yet...
 
