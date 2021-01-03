@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>CrownKart Ecommerce</title>
+    <script src="https://unpkg.com/jquery@3.5.1/dist/jquery.min.js"></script>
+    <script src="https://unpkg.com/gridjs-jquery/dist/gridjs.development.js"></script>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://unpkg.com/gridjs/dist/theme/mermaid.min.css"
+    />
+  </head>
+  <body>
+    <h3 style="text-align:center">CrownKart E-commerce</h3>
+    <h1>Note : UI is not done yet...</h1>
+    <div id="jsGrid"></div>
+
+    <script>
+      $(function() {
+ 
+ $("#jsGrid").jsGrid({
+     height: "90%",
+     width: "100%",
+
+     filtering: true,
+     editing: true,
+     sorting: true,
+     paging: true,
+     autoload: true,
+
+     pageSize: 15,
+     pageButtonCount: 5,
+
+     deleteConfirm: "Do you really want to delete the client?",
+
+    //  controller: db,
+
+     fields: [
+         { name: "Name", type: "text", width: 150 },
+         { name: "Age", type: "number", width: 50 },
+         { name: "Address", type: "text", width: 200 },
+         { name: "Country", type: "select", items: db.countries, valueField: "Id", textField: "Name" },
+         { name: "Married", type: "checkbox", title: "Is Married", sorting: false },
+         { type: "control" }
+     ]
+ });
+
+});
+    </script>
+  </body>
+</html>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="4" failures="0" time="1.052">
+  <testsuite name="Controllers tests" errors="0" failures="0" skipped="0" timestamp="2021-01-03T17:25:27" time="0.972" tests="4">
+    <testcase classname="Controllers tests Getting product details from controllers" name="Controllers tests Getting product details from controllers" time="0.006">
+    </testcase>
+    <testcase classname="Controllers tests Getting cart details from controllers" name="Controllers tests Getting cart details from controllers" time="0.001">
+    </testcase>
+    <testcase classname="Controllers tests Inserting product details from controllers" name="Controllers tests Inserting product details from controllers" time="0.002">
+    </testcase>
+    <testcase classname="Controllers tests Deleting cart details from controllers" name="Controllers tests Deleting cart details from controllers" time="0.001">
+    </testcase>
+  </testsuite>
+</testsuites>

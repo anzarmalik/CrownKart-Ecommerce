@@ -1,0 +1,20 @@
+{
+    "local":{
+        "database": "ecommerce",
+        "username": "root",
+        "password": "root",
+        "host": "127.0.0.1"
+    },
+    "production":{
+        "database": "ecommerce",
+        "username": "root",
+        "password": "",
+        "host": "127.0.0.1"
+    },
+    "staging":{
+        "database": "ecommerce",
+        "username": "root",
+        "password": "",
+        "host": "127.0.0.1"
+    }
+}
